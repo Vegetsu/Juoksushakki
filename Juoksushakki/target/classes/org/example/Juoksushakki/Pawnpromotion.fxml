@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane fx:id="pawncontrollerpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.Juoksushakki.Pawnpromotioncontroller">
+   <children>
+      <Button fx:id="queenbutton" contentDisplay="TOP" layoutX="35.0" layoutY="14.0" mnemonicParsing="false" prefHeight="181.0" prefWidth="254.0" text="Kuningatar">
+         <graphic>
+            <ImageView fx:id="queenpanel" fitHeight="133.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/w-queen.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="Tornibutton" contentDisplay="TOP" layoutX="315.0" layoutY="14.0" mnemonicParsing="false" prefHeight="181.0" prefWidth="254.0" text="Torni">
+         <graphic>
+            <ImageView fx:id="tornipanel" fitHeight="133.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/w-rook.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="Lahettibutton" contentDisplay="TOP" layoutX="35.0" layoutY="205.0" mnemonicParsing="false" prefHeight="181.0" prefWidth="254.0" text="Lähetti">
+         <graphic>
+            <ImageView fx:id="lahettipanel" fitHeight="133.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/w-bishop.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="Ratsubutton" contentDisplay="TOP" layoutX="315.0" layoutY="205.0" mnemonicParsing="false" prefHeight="181.0" prefWidth="254.0" text="Ratsu">
+         <graphic>
+            <ImageView fx:id="ratsupanel" fitHeight="133.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/w-knight.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
