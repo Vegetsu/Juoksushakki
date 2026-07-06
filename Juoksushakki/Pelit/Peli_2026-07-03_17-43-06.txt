@@ -1,0 +1,16 @@
+Juoksushakki
+Päivämäärä ja aika: 3.7.2026 17:43
+Valkoinen: Teppo
+Musta: Liisa
+----------------------------------------
+1. Valkoinen Sotilas: g2 → g4
+2. Valkoinen Sotilas: g4 → g5
+3. Musta Sotilas: a7 → a5
+4. Valkoinen Sotilas: g5 → g6
+5. Musta Sotilas: a5 → a4
+6. Valkoinen Sotilas: b2 → b4
+7. Musta Sotilas: Ohestalyönti a4 × b3
+8. Valkoinen Sotilas: g6 × f7 (Sotilas)
+9. Valkoinen Sotilas: f7 × e8 (Kuningas)
+----------------------------------------
+Voittaja: Teppo (Valkoinen)
